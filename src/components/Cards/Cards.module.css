@@ -1,0 +1,28 @@
+.container {
+  margin: 50px;
+}
+
+.card {
+  margin: 0 2% !important;
+}
+
+.recovered {
+  border-bottom: solid 10px #26eb9c;
+  margin-bottom: 20px !important;
+}
+
+.infected {
+  border-bottom: solid 10px #ffa412;
+  margin-bottom: 20px !important;
+}
+
+.deaths {
+  border-bottom: solid 10px #ff1235;
+  margin-bottom: 20px !important;
+}
+
+.search {
+  margin-bottom: 100px;
+  margin-top: 20px;
+  text-align: center;
+}

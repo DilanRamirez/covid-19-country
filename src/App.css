@@ -1,38 +1,60 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+/* .container {
+  position: relative;
+  min-height: 100%;
+} */
+.container-top {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+}
+
+.container-img {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.title {
+  margin: 50px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container-select {
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container-flag {
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container-cards {
+  display: inline;
 }
 
-.App-link {
-  color: #61dafb;
+.MuiAppBar-colorPrimary {
+  color: #fff;
+  background-color: #70c0a7;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container-center {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 100px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
